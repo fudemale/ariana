@@ -6,10 +6,13 @@ export default function FooterSection() {
         <div className="h-auto p-4 md:p-8 flex flex-col justify-start items-start gap-8">
           {/* Brand Section */}
           <div className="self-stretch flex justify-start items-center gap-3">
-            <div className="text-center text-[#49423D] text-xl font-semibold leading-4 font-sans">Arianainsta</div>
+            <div className="text-center text-foreground text-xl font-semibold leading-4 font-sans">Arianainsta</div>
           </div>
-          <div className="text-[rgba(73,66,61,0.90)] text-sm font-medium leading-[18px] font-sans">
-            Grow your Instagram presence effortlessly
+          <div className="text-muted-foreground text-sm font-medium leading-[18px] font-sans">
+            Instagram management platform
+          </div>
+          <div className="text-muted-foreground text-xs leading-[18px] font-sans">
+            Operated by FalkTech LTD
           </div>
 
           {/* Social Media Icons */}
@@ -80,45 +83,30 @@ export default function FooterSection() {
 
           {/* Company Column */}
           <div className="flex flex-col justify-start items-start gap-3 flex-1 min-w-[120px]">
-            <div className="text-[rgba(73,66,61,0.50)] text-sm font-medium leading-5 font-sans">Company</div>
+            <div className="text-muted-foreground text-sm font-medium leading-5 font-sans">Company</div>
             <div className="flex flex-col justify-center items-start gap-2">
-              <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                About us
-              </div>
-              <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Our team
-              </div>
-              <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Careers
-              </div>
-              <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Brand
-              </div>
-              <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
+              <a href="/contact" className="text-foreground text-sm font-normal leading-5 font-sans cursor-pointer hover:text-primary transition-colors">
                 Contact
-              </div>
+              </a>
+              <a href="mailto:support@arianainsta.com" className="text-foreground text-sm font-normal leading-5 font-sans cursor-pointer hover:text-primary transition-colors">
+                Support
+              </a>
             </div>
           </div>
 
-          {/* Resources Column */}
+          {/* Legal Column */}
           <div className="flex flex-col justify-start items-start gap-3 flex-1 min-w-[120px]">
-            <div className="text-[rgba(73,66,61,0.50)] text-sm font-medium leading-5 font-sans">Resources</div>
-            <div className="flex flex-col justify-center items-center gap-2">
-              <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Terms of use
-              </div>
-              <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                API Reference
-              </div>
-              <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Documentation
-              </div>
-              <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Community
-              </div>
-              <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Support
-              </div>
+            <div className="text-muted-foreground text-sm font-medium leading-5 font-sans">Legal</div>
+            <div className="flex flex-col justify-center items-start gap-2">
+              <a href="/terms" className="text-foreground text-sm font-normal leading-5 font-sans cursor-pointer hover:text-primary transition-colors">
+                Terms of Service
+              </a>
+              <a href="/privacy" className="text-foreground text-sm font-normal leading-5 font-sans cursor-pointer hover:text-primary transition-colors">
+                Privacy Policy
+              </a>
+              <a href="/refund-policy" className="text-foreground text-sm font-normal leading-5 font-sans cursor-pointer hover:text-primary transition-colors">
+                Refund Policy
+              </a>
             </div>
           </div>
         </div>

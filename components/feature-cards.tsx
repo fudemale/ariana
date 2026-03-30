@@ -1,18 +1,18 @@
 export function FeatureCards() {
   const features = [
     {
-      title: "Plan your schedules",
-      description: "Explore your data, build your dashboard,\nbring your team together.",
+      title: "Content Planning",
+      description: "Schedule posts in advance, plan your content calendar, and maintain consistent posting schedules.",
       highlighted: true,
     },
     {
-      title: "Data to insights in the minutes",
-      description: "Explore your data, build your dashboard,\nbring your team together.",
+      title: "Performance Tracking",
+      description: "Monitor engagement metrics, track post performance, and analyze audience insights.",
       highlighted: false,
     },
     {
-      title: "Data to insights in the minutes",
-      description: "Explore your data, build your dashboard,\nbring your team together.",
+      title: "Account Management",
+      description: "Manage multiple accounts, collaborate with team members, and maintain brand consistency.",
       highlighted: false,
     },
   ]

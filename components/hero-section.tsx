@@ -8,20 +8,19 @@ export function HeroSection() {
           {/* Hero Content */}
           <div className="max-w-[937px] flex flex-col items-center gap-3">
             <div className="flex flex-col items-center gap-6">
-              <h1 className="max-w-[748px] text-center text-[#37322f] text-5xl md:text-[80px] font-normal leading-tight md:leading-[96px] font-serif">
-                Automate Instagram growth with arianainsta
+              <h1 className="max-w-[748px] text-center text-foreground text-5xl md:text-[80px] font-normal leading-tight md:leading-[96px] font-serif">
+                Manage your Instagram presence efficiently
               </h1>
-              <p className="max-w-[506px] text-center text-[#37322f]/80 text-lg font-medium leading-7">
-                Schedule posts, grow your audience, and track analytics all in one powerful platform powered by
-                arianainsta.
+              <p className="max-w-[506px] text-center text-muted-foreground text-lg font-medium leading-7">
+                Plan and schedule content, track performance metrics, and manage your Instagram account from one platform.
               </p>
             </div>
           </div>
 
           {/* CTA Button */}
           <div className="flex justify-center">
-            <Button className="h-10 px-12 bg-[#37322f] hover:bg-[#37322f]/90 text-white rounded-full font-medium text-sm shadow-[0px_0px_0px_2.5px_rgba(255,255,255,0.08)_inset]">
-              Start for free
+            <Button className="h-10 px-12 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full font-medium text-sm shadow-[0px_0px_0px_2.5px_rgba(255,255,255,0.08)_inset]">
+              Get Started
             </Button>
           </div>
         </div>

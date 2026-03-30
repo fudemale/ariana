@@ -57,6 +57,30 @@ export default function PricingSection() {
         </div>
       </div>
 
+      {/* Security & Trust Badges */}
+      <div className="self-stretch px-6 md:px-16 py-6 bg-muted/30 border-b border-border flex justify-center items-center">
+        <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8">
+          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <svg className="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
+            </svg>
+            SSL Secure
+          </div>
+          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <svg className="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 3.062v6.372a3.066 3.066 0 01-2.812 3.062 3.066 3.066 0 01-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 01-1.745-.723 3.066 3.066 0 01-2.812-3.062V6.517a3.066 3.066 0 012.812-3.062zm7.958 5.28a.75.75 0 00-1.064-1.06L9 10.893 7.854 9.747a.75.75 0 10-1.06 1.061l1.5 1.5a.75.75 0 001.06 0l3.462-3.461z" clipRule="evenodd" />
+            </svg>
+            PCI Compliant
+          </div>
+          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <svg className="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10.5 1.5H5.625A1.625 1.625 0 004 3.125v13.75A1.625 1.625 0 005.625 18.5h8.75a1.625 1.625 0 001.625-1.625V6.5m-11-5v3.75m7.5-3.75v3.75M4.5 9.5h11" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+            </svg>
+            Secure Payments by Stripe
+          </div>
+        </div>
+      </div>
+
       {/* Billing Toggle Section */}
       <div className="self-stretch px-6 md:px-16 py-9 relative flex justify-center items-center gap-4">
         {/* Horizontal line */}
@@ -173,6 +197,7 @@ export default function PricingSection() {
                     Start for free
                   </div>
                 </div>
+                <p className="text-xs text-muted-foreground text-center">No credit card required</p>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
@@ -254,6 +279,7 @@ export default function PricingSection() {
                     Get started
                   </div>
                 </div>
+                <p className="text-xs text-muted-foreground text-center">Billed annually, cancel anytime</p>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
@@ -337,6 +363,7 @@ export default function PricingSection() {
                     Contact sales
                   </div>
                 </div>
+                <p className="text-xs text-muted-foreground text-center">Custom billing available</p>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">

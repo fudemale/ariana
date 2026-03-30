@@ -84,16 +84,40 @@ export default function TermsPage() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">8. Governing Law</h2>
+            <h2 className="text-2xl font-semibold text-foreground mb-4">8. Billing & Payment</h2>
+            <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <p>
+                <strong>Subscription Fees:</strong> When you subscribe to a paid plan, you authorize ArianaInsta to charge the subscription fee to your selected payment method at the start of each billing period (monthly or annually).
+              </p>
+              <p>
+                <strong>Payment Processing:</strong> All payments are processed securely by Stripe, a PCI-DSS Level 1 compliant payment processor. We do not store your credit card information on our servers.
+              </p>
+              <p>
+                <strong>Billing Notifications:</strong> You will receive a confirmation email from Stripe before each charge. Check your email regularly for billing statements.
+              </p>
+              <p>
+                <strong>Auto-Renewal:</strong> Your subscription will automatically renew at the end of each billing period unless you cancel before the renewal date. Cancellation must be completed through your account settings or by contacting support@arianainsta.com.
+              </p>
+              <p>
+                <strong>Refunds:</strong> Refund requests must be made within 14 days of purchase. Refunds are issued in full for the subscription period. Partial refunds are not available for mid-period cancellations. See our Refund Policy for complete details.
+              </p>
+              <p>
+                <strong>Price Changes:</strong> We may change our subscription fees from time to time. Price increases will take effect at your next billing renewal and you will be notified at least 30 days in advance. If you do not agree to the new price, you may cancel before the price change takes effect.
+              </p>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-foreground mb-4">9. Governing Law</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               These terms and conditions are governed by and construed in accordance with the laws of the United Kingdom, and you irrevocably submit to the exclusive jurisdiction of the courts in that location.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">9. Contact Information</h2>
+            <h2 className="text-2xl font-semibold text-foreground mb-4">10. Contact Information</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              If you have questions about these Terms of Service, please contact us at support@arianainsta.com.
+              If you have questions about these Terms of Service, billing, or cancellation, please contact us at support@arianainsta.com or visit our <a href="/contact" className="text-primary hover:underline">contact page</a>.
             </p>
           </section>
         </div>

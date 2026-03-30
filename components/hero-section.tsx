@@ -9,10 +9,10 @@ export function HeroSection() {
           <div className="max-w-[937px] flex flex-col items-center gap-3">
             <div className="flex flex-col items-center gap-6">
               <h1 className="max-w-[748px] text-center text-foreground text-5xl md:text-[80px] font-normal leading-tight md:leading-[96px] font-serif">
-                Manage your Instagram presence efficiently
+                Schedule posts, grow your audience, track results
               </h1>
               <p className="max-w-[506px] text-center text-muted-foreground text-lg font-medium leading-7">
-                Plan and schedule content, track performance metrics, and manage your Instagram account from one platform.
+                ArianaInsta helps creators and brands automate Instagram posting, measure engagement, and scale faster with data-driven insights.
               </p>
             </div>
           </div>

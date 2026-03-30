@@ -44,7 +44,9 @@ export default function ContactPage() {
               <h2 className="text-xl font-semibold text-foreground mb-3">Business Information</h2>
               <p className="text-muted-foreground space-y-2">
                 <div><strong>Company:</strong> FalkTech LTD</div>
-                <div><strong>Service:</strong> Instagram Management Platform</div>
+                <div><strong>Service:</strong> Instagram Management Platform (SaaS)</div>
+                <div><strong>Billing Statement:</strong> Your credit card statement will show charges from FalkTech LTD for ArianaInsta subscription</div>
+                <div><strong>Payment Processor:</strong> Stripe</div>
               </p>
             </div>
 

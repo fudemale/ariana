@@ -9,34 +9,34 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "What is arianainsta and who is it for?",
+    question: "What is ArianaInsta and who is it for?",
     answer:
-      "arianainsta is a comprehensive Instagram automation platform designed for content creators and businesses that want to grow their Instagram presence. It's perfect for influencers, small businesses, agencies, and anyone looking to streamline their Instagram marketing.",
+      "ArianaInsta is a subscription software platform that provides tools for scheduling Instagram posts, viewing analytics, and managing accounts. It's designed for content creators and businesses managing their own Instagram presence.",
   },
   {
-    question: "How does Instagram automation work with arianainsta?",
+    question: "What can I do with ArianaInsta?",
     answer:
-      "Our platform automatically schedules your posts, manages engagement, and provides detailed analytics. You can set up posting schedules, automate interactions, and track your growth metrics all in one place.",
+      "ArianaInsta provides a dashboard to schedule posts in advance, view performance analytics, and manage account settings. You retain full control of your Instagram account and all content decisions.",
   },
   {
-    question: "Can I integrate arianainsta with my existing tools?",
+    question: "Can I integrate ArianaInsta with other tools?",
     answer:
-      "Yes! arianainsta integrates seamlessly with popular analytics tools, CRM systems, and marketing platforms. We support APIs and webhooks for custom integrations with your existing workflow.",
+      "ArianaInsta connects with Instagram's public API. We document integration options for users who want to connect with third-party analytics or marketing tools.",
   },
   {
-    question: "What kind of support do you provide?",
+    question: "What support is available?",
     answer:
-      "We offer 24/7 customer support, dedicated account managers for premium clients, comprehensive documentation, and onboarding assistance to help you get started quickly.",
+      "We provide email support at support@arianainsta.com and aim to respond within 24-48 business hours. Documentation and FAQs are available on our website.",
   },
   {
-    question: "Is my Instagram data secure with arianainsta?",
+    question: "How is my Instagram data handled?",
     answer:
-      "Absolutely. We use enterprise-grade security measures including end-to-end encryption, OAuth authentication, and regular security audits. Your data is stored in secure, redundant data centers.",
+      "Your Instagram account data is accessed through Instagram's OAuth login. ArianaInsta acts as a scheduling and analytics tool. We do not store your login credentials. See our Privacy Policy for full details.",
   },
   {
-    question: "How do I get started with arianainsta?",
+    question: "How do I get started?",
     answer:
-      "Getting started is simple! Sign up for our free trial, connect your Instagram account, and our onboarding team will help you set up your first automation within 24 hours.",
+      "Choose a plan, sign up, and connect your Instagram account via Instagram's OAuth. You can then start scheduling posts and viewing analytics immediately.",
   },
 ]
 

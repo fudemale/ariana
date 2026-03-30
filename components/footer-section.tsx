@@ -11,8 +11,11 @@ export default function FooterSection() {
           <div className="text-muted-foreground text-sm font-medium leading-[18px] font-sans">
             Instagram management platform
           </div>
-          <div className="text-muted-foreground text-xs leading-[18px] font-sans">
-            Operated by FalkTech LTD
+          <div className="space-y-1 text-muted-foreground text-xs leading-[18px] font-sans">
+            <div>Operated by FalkTech LTD</div>
+            <div>Company Number: [TO BE ADDED]</div>
+            <div>Registered Address: [TO BE ADDED]</div>
+            <div className="pt-2">Payment Processing by Stripe</div>
           </div>
 
           {/* Social Media Icons */}

@@ -13,6 +13,7 @@ import FAQSection from "../components/faq-section"
 import PricingSection from "../components/pricing-section"
 import CTASection from "../components/cta-section"
 import { BillingDisclosure } from "../components/billing-disclosure"
+import { HowBillingWorks } from "../components/how-billing-works"
 import FooterSection from "../components/footer-section"
 
 // Reusable Badge Component
@@ -546,6 +547,9 @@ export default function LandingPage() {
 
               {/* CTA Section */}
               <CTASection />
+
+              {/* How Billing Works Section */}
+              <HowBillingWorks />
 
               {/* Billing Disclosure Section */}
               <BillingDisclosure />

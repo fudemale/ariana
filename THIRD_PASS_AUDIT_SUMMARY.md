@@ -34,10 +34,10 @@ A comprehensive third-pass audit has been completed focusing on:
 - Reduces chargeback risk from misaligned expectations
 
 **Example:** 
-```
+\`\`\`
 OLD: "automate interactions"
 NEW: "schedule posts and view analytics"
-```
+\`\`\`
 
 ---
 
@@ -63,11 +63,11 @@ NEW: "schedule posts and view analytics"
 **File:** `/components/footer-section.tsx`
 
 **Changes Added:**
-```
+\`\`\`
 Company Number: [TO BE ADDED]
 Registered Address: [TO BE ADDED]
 Payment Processing by Stripe
-```
+\`\`\`
 
 **Risk Reduction:** 🟡 MEDIUM
 - Signals legitimate company
@@ -82,13 +82,13 @@ Payment Processing by Stripe
 **File:** `/app/contact/page.tsx`
 
 **Changes Added:**
-```
+\`\`\`
 Business Information section now includes:
 - Service: Instagram Management Platform (SaaS)
 - Billing Statement: Your credit card statement will show charges 
   from FalkTech LTD for ArianaInsta subscription
 - Payment Processor: Stripe
-```
+\`\`\`
 
 **Risk Reduction:** 🟢 HIGH
 - Statement descriptor clarity prevents chargebacks

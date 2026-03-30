@@ -327,12 +327,12 @@ This checklist ensures ArianaInsta meets all Stripe requirements before contacti
 
 **Action:** 
 Obtain and keep on file:
-```
+\`\`\`
 1. Certificate of Incorporation or registration proof
 2. VAT certificate (if VAT registered)
 3. Company director details
 4. Business address (will appear on invoice)
-```
+\`\`\`
 
 **Owner Task:**
 Add to website when secured (optional but improves trust):
@@ -354,11 +354,11 @@ Add to website when secured (optional but improves trust):
 
 **Action:**
 1. Test the email address yourself:
-   ```
+   \`\`\`
    Send test email to: support@arianainsta.com
    Message: "Test email for Stripe setup"
    Expected response: Within 24-48 hours
-   ```
+   \`\`\`
 2. Stripe may test it too - be prepared to respond
 
 **Timeline:** Set up 1 week BEFORE Stripe submission

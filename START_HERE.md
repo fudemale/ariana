@@ -8,7 +8,7 @@ This document will guide you through what was done and what's next.
 
 ## 📊 At a Glance
 
-```
+\`\`\`
 ┌─────────────────────────────────────────┐
 │   STRIPE COMPLIANCE REFACTORING        │
 │          ✅ COMPLETE                    │
@@ -22,7 +22,7 @@ This document will guide you through what was done and what's next.
 │ Total Lines Added:  1,000+              │
 │ Risk Level:         HIGH → LOW-MEDIUM   │
 └─────────────────────────────────────────┘
-```
+\`\`\`
 
 ---
 
@@ -84,7 +84,7 @@ All colors now use semantic tokens:
 
 ## 🔒 Stripe Compliance: Before vs After
 
-```
+\`\`\`
 BEFORE                          AFTER
 ├─ No legal pages        ────→  ├─ 4 legal pages
 ├─ No company ID         ────→  ├─ FalkTech LTD branded
@@ -93,7 +93,7 @@ BEFORE                          AFTER
 ├─ No refund policy      ────→  ├─ Clear 14-day policy
 ├─ No support contact    ────→  ├─ Email visible
 └─ Low trust elements    ────→  └─ Professional elements
-```
+\`\`\`
 
 ---
 
@@ -236,23 +236,23 @@ BEFORE                          AFTER
 ## 🚀 Risk Assessment
 
 ### Before Refactoring
-```
+\`\`\`
 Risk Level: ⚠️⚠️⚠️ HIGH
 ├─ Missing legal pages
 ├─ No company identity
 ├─ Vague/risky copy
 └─ No payment disclosure
-```
+\`\`\`
 
 ### After Refactoring
-```
+\`\`\`
 Risk Level: ⚠️ LOW-MEDIUM
 ├─ Legal framework complete
 ├─ Company clearly identified
 ├─ Copy is safe & specific
 └─ Payment processor disclosed
 ⚠️ Testimonials need review
-```
+\`\`\`
 
 **Improvement:** HIGH → LOW-MEDIUM** ✅
 
@@ -277,14 +277,14 @@ Risk Level: ⚠️ LOW-MEDIUM
 ## ✨ What's Ready Now
 
 ✅ **Test Locally**
-```bash
+\`\`\`bash
 npm run dev
 # Then visit:
 # http://localhost:3000/terms
 # http://localhost:3000/privacy
 # http://localhost:3000/refund-policy
 # http://localhost:3000/contact
-```
+\`\`\`
 
 ✅ **Check Footer**
 - New links to legal pages
@@ -339,7 +339,7 @@ Your ArianaInsta site is now **production-ready** and **Stripe-compliant** with:
 
 ## 📚 Documentation Map
 
-```
+\`\`\`
 START_HERE.md (You are here)
 ├── COMPLETION_REPORT.md (Full project status) ⭐ Read this next
 ├── AUDIT_SUMMARY.md (Detailed findings)
@@ -358,7 +358,7 @@ Components:
 ├── components/feature-cards.tsx (Updated)
 ├── components/billing-disclosure.tsx (New)
 └── app/page.tsx (Updated)
-```
+\`\`\`
 
 ---
 

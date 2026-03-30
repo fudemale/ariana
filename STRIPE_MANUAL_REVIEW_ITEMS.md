@@ -182,29 +182,29 @@
 - [ ] **What exactly are you selling?**
   
   **Option A: Pure SaaS** (Current positioning)
-  ```
+  \`\`\`
   ✅ ArianaInsta software access only
   ✅ Customers control their own Instagram
   ✅ No content creation by FalkTech
   ✅ No password sharing
-  ```
+  \`\`\`
   
   **Option B: Managed Service** (Alternative)
-  ```
+  \`\`\`
   FalkTech logs into customer accounts
   FalkTech creates/schedules content
   FalkTech has account control
   ❌ NOT compatible with current Stripe Terms
   ❌ Requires separate service agreement
-  ```
+  \`\`\`
   
   **Option C: Hybrid** (Mixed)
-  ```
+  \`\`\`
   Some customers: Pure SaaS (Option A)
   Some customers: Managed service (Option B)
   ❌ Risky for Stripe
   ❌ May trigger account suspension
-  ```
+  \`\`\`
 
 - **Action Required:** Confirm which model applies
 - **Decision Impact:** Determines Stripe setup, refund policy, terms

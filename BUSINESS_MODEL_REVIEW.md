@@ -22,23 +22,23 @@ ArianaInsta is presented as **SaaS software only**. This is the correct position
 ### ✅ What the Site Correctly Says:
 
 **From BillingDisclosure Component:**
-```
+\`\`\`
 "ArianaInsta is a subscription software platform that provides tools for 
 scheduling content, tracking analytics, and managing Instagram accounts. 
 You gain access to our platform features for the duration of your subscription."
-```
+\`\`\`
 
 **From Terms of Service:**
-```
+\`\`\`
 "When you subscribe to a paid plan, you authorize ArianaInsta to charge 
 the subscription fee to your selected payment method... Billing occurs at 
 the start of each billing period (monthly or annually)."
-```
+\`\`\`
 
 **From Contact Page:**
-```
+\`\`\`
 "Service: Instagram Management Platform (SaaS)"
-```
+\`\`\`
 
 ### Status: ✅ CLEAR & STRIPE-SAFE
 The site accurately describes ArianaInsta as:
@@ -54,11 +54,11 @@ The site accurately describes ArianaInsta as:
 ### 1. FAQ Language (NOW FIXED)
 
 **Old wording:**
-```
+\`\`\`
 "manage engagement, automate interactions"
 "onboarding team will help you set up your first automation within 24 hours"
 "grow their Instagram presence"
-```
+\`\`\`
 
 **Issues:**
 - "automate interactions" could imply bot-like behavior
@@ -67,11 +67,11 @@ The site accurately describes ArianaInsta as:
 - "grow presence" is aspirational language (growth not guaranteed)
 
 **New wording (IMPLEMENTED):**
-```
+\`\`\`
 "You retain full control of your Instagram account and all content decisions"
 "Choose a plan, sign up, and connect your Instagram account via Instagram's OAuth. 
 You can then start scheduling posts and viewing analytics immediately."
-```
+\`\`\`
 
 **Status:** ✅ FIXED
 
@@ -80,21 +80,21 @@ You can then start scheduling posts and viewing analytics immediately."
 ### 2. Feature Card Language (STILL PRESENT)
 
 **Current (in feature-cards.tsx):**
-```
+\`\`\`
 "Account Management: Manage multiple accounts, collaborate with team members, 
 and maintain brand consistency."
-```
+\`\`\`
 
 **Potential Issue:**
 - "Manage accounts" could imply password sharing or account takeover
 - Stripe may flag if it appears the tool logs into customer accounts
 
 **Recommended Wording:**
-```
+\`\`\`
 "Account Management: Switch between multiple connected accounts, 
 collaborate with team members within the platform, 
 and keep posting schedules consistent."
-```
+\`\`\`
 
 **Action:** NEEDS UPDATE (flagged for founder decision)
 
@@ -103,17 +103,17 @@ and keep posting schedules consistent."
 ### 3. Hero Section Copy
 
 **Current:**
-```
+\`\`\`
 "Schedule posts, grow your audience, track results"
-```
+\`\`\`
 
 **Potential Issue:**
 - "grow your audience" is aspirational. Growth depends on content quality, audience, posting frequency—not the tool.
 
 **Safer Alternative:**
-```
+\`\`\`
 "Schedule posts, track performance, measure results"
-```
+\`\`\`
 
 **Action:** NEEDS REVIEW (founder decision: is growth language critical to marketing?)
 
@@ -122,11 +122,11 @@ and keep posting schedules consistent."
 ### 4. Pricing Structure Language
 
 **Current (on pricing cards):**
-```
+\`\`\`
 Starter: "No credit card required"
 Professional: "Billed annually, cancel anytime"
 Enterprise: "Custom billing available"
-```
+\`\`\`
 
 **Status:** ✅ CORRECT
 - Clearly states subscription renewal terms
@@ -138,10 +138,10 @@ Enterprise: "Custom billing available"
 ### 5. Statement Descriptor Clarity (NOW ADDED)
 
 **Added to Contact Page:**
-```
+\`\`\`
 "Billing Statement: Your credit card statement will show charges from 
 FalkTech LTD for ArianaInsta subscription"
-```
+\`\`\`
 
 **Status:** ✅ ADDED
 - Customers will recognize the charge on their statement
@@ -181,12 +181,12 @@ Is ArianaInsta:
 
 **Evidence from the site:**
 
-```
+\`\`\`
 ✅ "You retain full control of your Instagram account"
 ✅ "Connect your Instagram account via Instagram's OAuth"
 ✅ "Platform features for the duration of your subscription"
 ✅ "Tools for scheduling content, tracking analytics, and managing accounts"
-```
+\`\`\`
 
 **No language suggesting:**
 - ❌ FalkTech will log in on your behalf
@@ -241,9 +241,9 @@ If unclear whether:
 ### 1. Feature Card Language Update
 
 **Current:**
-```
+\`\`\`
 "Manage multiple accounts, collaborate with team members, and maintain brand consistency."
-```
+\`\`\`
 
 **Recommendation:**
 Change "manage accounts" to "switch between accounts" or "organize accounts" to avoid implication of account takeover.
@@ -255,14 +255,14 @@ Change "manage accounts" to "switch between accounts" or "organize accounts" to 
 ### 2. Hero Copy - Growth Language
 
 **Current:**
-```
+\`\`\`
 "Schedule posts, grow your audience, track results"
-```
+\`\`\`
 
 **Alternative (safer):**
-```
+\`\`\`
 "Schedule posts, track performance, measure results"
-```
+\`\`\`
 
 **Founder Decision Needed:** How important is "growth" positioning to your marketing?
 
@@ -295,7 +295,7 @@ If you offer managed services, you need separate Terms for those services and ca
 
 ### Stripe Submission Template:
 
-```
+\`\`\`
 Business Model: SaaS Software Subscription
 
 Service Description: ArianaInsta is a subscription software platform 
@@ -313,7 +313,7 @@ Processed by FalkTech LTD support team within 5-10 business days.
 Payment Processor: Stripe (PCI-DSS Level 1)
 
 Company: FalkTech LTD (UK Company Number: [TO BE ADDED])
-```
+\`\`\`
 
 ---
 

@@ -8,15 +8,15 @@ export default function PricingSection() {
   const pricing = {
     starter: {
       monthly: 0,
-      annually: 0,
+      annually: 200,
     },
     professional: {
-      monthly: 80,
-      annually: 64,
+      monthly: 0,
+      annually: 1000,
     },
     enterprise: {
-      monthly: 300,
-      annually: 240,
+      monthly: 0,
+      annually: 2000,
     },
   }
 

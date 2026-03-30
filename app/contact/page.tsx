@@ -42,12 +42,14 @@ export default function ContactPage() {
 
             <div>
               <h2 className="text-xl font-semibold text-foreground mb-3">Business Information</h2>
-              <p className="text-muted-foreground space-y-2">
+              <div className="text-muted-foreground space-y-2">
                 <div><strong>Company:</strong> FalkTech LTD</div>
+                <div><strong>Company Number:</strong> 16825780</div>
+                <div><strong>Registered Address:</strong> 35 Buckhurst Street, London, England, E1 5QT</div>
                 <div><strong>Service:</strong> Instagram Management Platform (SaaS)</div>
                 <div><strong>Billing Statement:</strong> Your credit card statement will show charges from FalkTech LTD for ArianaInsta subscription</div>
                 <div><strong>Payment Processor:</strong> Stripe</div>
-              </p>
+              </div>
             </div>
 
             <div>

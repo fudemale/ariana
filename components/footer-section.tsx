@@ -13,8 +13,9 @@ export default function FooterSection() {
           </div>
           <div className="space-y-1 text-muted-foreground text-xs leading-[18px] font-sans">
             <div>Operated by FalkTech LTD</div>
-            <div>Company Number: [TO BE ADDED]</div>
-            <div>Registered Address: [TO BE ADDED]</div>
+            <div>Company Number: 16825780</div>
+            <div>35 Buckhurst Street</div>
+            <div>London, England, E1 5QT</div>
             <div className="pt-2">Payment Processing by Stripe</div>
           </div>
 

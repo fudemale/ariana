@@ -67,7 +67,7 @@ In Stripe Dashboard, create products:
 ### 5. Checkout Integration (3-5 days)
 Build Stripe Checkout for:
 
-```javascript
+\`\`\`javascript
 // Example - integrate with your forms
 const handleCheckout = async (priceId) => {
   const response = await fetch('/api/checkout', {
@@ -79,7 +79,7 @@ const handleCheckout = async (priceId) => {
   // Redirect to Stripe Checkout
   stripe.redirectToCheckout({ sessionId });
 };
-```
+\`\`\`
 
 **Stripe Docs:** https://stripe.com/docs/checkout
 

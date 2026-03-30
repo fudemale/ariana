@@ -151,24 +151,24 @@ ArianaInsta has been successfully refactored from a template-based landing page 
 ## Copy Quality Improvements
 
 ### Headline
-```
+\`\`\`
 ❌ Before: "Automate Instagram growth with arianainsta"
 ✅ After:  "Manage your Instagram presence efficiently"
-```
+\`\`\`
 Reason: Specific, verifiable, no growth guarantees
 
 ### Tagline
-```
+\`\`\`
 ❌ Before: "Schedule posts, grow your audience, and track analytics..."
 ✅ After:  "Plan and schedule content, track performance metrics..."
-```
+\`\`\`
 Reason: Concrete features, realistic language
 
 ### Feature Descriptions
-```
+\`\`\`
 ❌ Before: Generic "explore data, build dashboard" repeated 3x
 ✅ After:  Specific features - Content Planning, Performance Tracking, Account Management
-```
+\`\`\`
 Reason: Clear differentiation, actual platform capabilities
 
 ---
@@ -313,30 +313,30 @@ Reason: Clear differentiation, actual platform capabilities
 ## Next Steps (Immediate)
 
 ### Week 1: Verification
-```
+\`\`\`
 Day 1: Legal team reviews Terms/Privacy/Refund
 Day 2: Verify support email is active
 Day 3: Set up contact form backend
 Day 4: Create FAQ from common questions
 Day 5: Deploy to staging environment
-```
+\`\`\`
 
 ### Week 2: Testing
-```
+\`\`\`
 Day 1: Test all pages on staging
 Day 2: Test Stripe integration (test mode)
 Day 3: Test refund workflow
 Day 4: Final legal sign-off
 Day 5: Prepare for production launch
-```
+\`\`\`
 
 ### Week 3: Launch
-```
+\`\`\`
 Day 1-2: Production deployment
 Day 3: Monitor for issues
 Day 4: Activate Stripe live mode
 Day 5: Begin customer acquisition
-```
+\`\`\`
 
 ---
 

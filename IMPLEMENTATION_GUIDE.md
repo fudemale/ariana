@@ -18,10 +18,10 @@
 Currently using hardcoded email: `support@arianainsta.com`
 
 **Optional Future Setup:**
-```
+\`\`\`
 NEXT_PUBLIC_SUPPORT_EMAIL=support@arianainsta.com
 NEXT_PUBLIC_COMPANY_NAME=FalkTech LTD
-```
+\`\`\`
 
 ---
 
@@ -65,7 +65,7 @@ NEXT_PUBLIC_COMPANY_NAME=FalkTech LTD
 
 ### Adding Email Backend (Example with Resend)
 
-```tsx
+\`\`\`tsx
 // app/api/contact/route.ts
 import { Resend } from 'resend';
 
@@ -87,16 +87,16 @@ export async function POST(request: Request) {
     return Response.json({ error: error.message }, { status: 500 });
   }
 }
-```
+\`\`\`
 
 ### Refund Processing Integration
 
-```tsx
+\`\`\`tsx
 // Webhook handler for Stripe refund requests
 // Map refund requests to 14-day window validation
 // Update order status in database
 // Send confirmation email to customer
-```
+\`\`\`
 
 ---
 
@@ -146,12 +146,12 @@ export async function POST(request: Request) {
 ## Deployment Steps
 
 1. **Local Testing**
-   ```bash
+   \`\`\`bash
    npm run dev
    # Test all new routes: /terms, /privacy, /refund-policy, /contact
    # Verify footer links work
    # Check billing disclosure displays
-   ```
+   \`\`\`
 
 2. **Staging Deployment**
    - Deploy to Vercel staging environment

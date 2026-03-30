@@ -48,7 +48,7 @@ Complete refactoring to meet Stripe payment processor compliance and present Ari
 - 🎨 Updated color tokens for semantic consistency
 
 **Key Updates:**
-```tsx
+\`\`\`tsx
 // Before
 <div>About us</div>
 <div>Our team</div>
@@ -57,7 +57,7 @@ Complete refactoring to meet Stripe payment processor compliance and present Ari
 // After
 <a href="/contact">Contact</a>
 <a href="mailto:support@arianainsta.com">Support</a>
-```
+\`\`\`
 
 ### 2. `/components/hero-section.tsx`
 **Changes:** 2 edits

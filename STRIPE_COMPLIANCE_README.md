@@ -72,12 +72,12 @@ This project successfully refactored the ArianaInsta Instagram management platfo
 4. **Color System**: All hardcoded colors replaced with semantic tokens
 
 ### Test Locally
-```bash
+\`\`\`bash
 npm run dev
 # Visit http://localhost:3000/terms to verify new routes
 # Check footer links
 # Verify billing disclosure displays
-```
+\`\`\`
 
 ### Documentation
 - **Quick Reference**: Start here → [COMPLETION_REPORT.md](/COMPLETION_REPORT.md)
@@ -90,7 +90,7 @@ npm run dev
 ## 📋 Files Changed
 
 ### New Files (9)
-```
+\`\`\`
 /app/terms/page.tsx
 /app/privacy/page.tsx
 /app/refund-policy/page.tsx
@@ -100,16 +100,16 @@ npm run dev
 /IMPLEMENTATION_GUIDE.md
 /CHANGES.md
 /COMPLETION_REPORT.md
-```
+\`\`\`
 
 ### Modified Files (5)
-```
+\`\`\`
 /components/footer-section.tsx         (+3 edits)
 /components/hero-section.tsx           (+2 edits)
 /components/feature-cards.tsx          (+1 edit)
 /app/page.tsx                          (+2 edits)
 /app/globals.css                       (no changes)
-```
+\`\`\`
 
 ---
 
@@ -205,28 +205,28 @@ npm run dev
 ## 🚢 Deployment Roadmap
 
 ### Phase 1: Verification (Week 1)
-```
+\`\`\`
 Day 1-2: Legal review of Terms/Privacy/Refund
 Day 2-3: Verify support infrastructure
 Day 3-4: Set up email backend
 Day 4-5: Deploy to staging, run tests
-```
+\`\`\`
 
 ### Phase 2: Testing (Week 2)
-```
+\`\`\`
 Day 1-2: Full staging environment testing
 Day 2-3: Stripe integration test (test mode)
 Day 3-4: Refund workflow testing
 Day 4-5: Final compliance check
-```
+\`\`\`
 
 ### Phase 3: Launch (Week 3)
-```
+\`\`\`
 Day 1: Production deployment
 Day 2-3: Monitoring and validation
 Day 4: Switch Stripe to live mode
 Day 5: Begin customer acquisition
-```
+\`\`\`
 
 ---
 
